@@ -1,0 +1,20 @@
+[mods]
+modId="seashellmod"
+displayName="Seashell Mod"
+version="${file.jarVersion}"
+description="Adds various types of small 3D seashell blocks to tropical beaches."
+authors="YourName"
+
+[[dependencies.seashellmod]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.265,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.seashellmod]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+ordering="NONE"
+side="BOTH"
